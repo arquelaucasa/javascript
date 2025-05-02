@@ -17,4 +17,5 @@ console.log(mensagem);
 var profissao = "eletricista";
 var salario = 4800 
 var retornoSalario = `A eletriscista dele é  ${eletricista} e ele recebe ao mês ${salario} reais`;
+
 console.log(retornoSalario);
