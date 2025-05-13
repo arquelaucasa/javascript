@@ -1,4 +1,4 @@
-let primeiroNome = "amanda";
+let primeiroNome = "amanda"; // (value é valor no java) o sinal de = significa recebe np javascript. 
 let ultimoNome = 'santos'
 let nomeCompleto = primeiroNome + ' ' + ultimoNome; //usando o + 
 let nomeCompletoTemplate = `${primeiroNome} ${ultimoNome}`;//using template literal
@@ -10,26 +10,29 @@ var racaShih = "Shih Tzu";
 var idade = 7;
 var inforCachorro = racaShih + ' ' + idade;
 
+var inforRaca = `Shih Tzu  é uma raça de porte pequeno ${racaShih}  cal, se dão bem com crianças. 
+${idade} vivi de 10 a 12 anos `;
 
-var racaShih = `Shih Tzu  é uma raça de porte pequeno ${racaShih}  cal, se dão bem com crianças. 
-${idade} 10 a 12 anos `;
 
-
-console.log(inforCachorro);
+console.log(inforRaca);
 
 //criem 3 bloco de variaveis que contenho 1-( países e capitais), 2(tipos de dados banários ) 2 (rende familia).
 
-var paisPeru = "Peru";
+var pais = "Peru";
 var capital = "capital lima";
-var sobreLima = paisPeru + " " + capital;
-var paisPeru = `0 ${peru} Lima é a capital e maior cidade do Peru ${capital}`;
+var maiorCidade = `0 ${pais} Lima é a capital e maior cidade do Peru ${capital}`;
 
-console.log(paisCapital)
+console.log(maiorCidade);
 
 
-var neme = "Arquelau";
-var cpf = "banco do Brasil";
-var bancoBrasil = cp + " " + capital;
-var paisPe= `0 ${peru} Lima é a capital e maior cidade do Peru ${capital}`;
+var conta = "corrente"; // que está em laranja é que o usuário que vai enchega
+var banco = "banco do Brasil";
+var tipoDeConta = `0 ${banco} Agência 0064-5  banco do brasil conta corrente 18.001-3 ${conta}`;
 
-console.log(paisCapital)
+console.log(tipoDeConta);
+
+var rende = "familia";
+var valor = 5000
+var inforArenda = `0 ${rende} valor da rede familia ${valor} 5.000,00 reais`;
+
+console.log(inforArenda);
