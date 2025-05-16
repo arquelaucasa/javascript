@@ -18,4 +18,11 @@ const loja = {
 
 console.log(`nosso cliente em primeiro lugar: ${loja.nome}`)
 
+const carro  = {
+    marca: " ford",
+    ano: 2003,
+    passageiros: 5,
+    modelo: "fiesta herts",
 
+};
+console.log(`é um carro drrvr tanto para trabalha e laser: ${carro,marca}`);
