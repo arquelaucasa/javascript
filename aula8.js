@@ -14,3 +14,9 @@ let segundoNumero = 258;
 //estamos utilizando (maior que >) e (nenor que <) para comprar determinadas informações
 
 console.log(numero >= 30); // ( > ) maior que ( < ) menor que 
+
+// = (sinal de iqual significa "receba" )
+// == ( dois sinal de iqual significa somente tipo )
+// === (três sinal de iqual significa valor ou tipo )
+
+
