@@ -13,3 +13,9 @@ function tornarQuadrado() {
 
     meuElemento.classList.remove("circle");
 }
+
+function altenarFormato() {
+    meuElemento.classList.toggle("circle");
+    meuElemento.classList.toggle("square");
+
+}
