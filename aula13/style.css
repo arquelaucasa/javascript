@@ -12,3 +12,43 @@
 .circle {
     border-radius: 100%;
 }
+ /*aula de hoje 05/06/2025*/
+* {
+    font-family: 'arial' , 'courier';
+    margin: 0;
+    padding: 0;
+
+}
+#container {
+    margin: 20px auto;
+    border: 5px black solid;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+#tasjçiste {
+    list-style: none;
+    padding: 0;
+}
+
+ button {
+    background-color: blue;
+    margin-top: 10px;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+ }
+
+ #addTast:hover {
+    background-color: blue; /*coloque azul mais claro pfvr*/
+    transition: 0,8s;
+
+
+}
+#addTask:focus {
+    outline: none;
+}
