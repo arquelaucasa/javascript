@@ -28,16 +28,12 @@ function addTask() {// aqui estamos criando uma função para ser atribuida dent
         input.value = ""; // esado ára limpar o input, depois de add o iten em questão.
 
        }
+
     } else {
         alert("calma jovem, uma tarefa!"); // caso o compo de input estiver vazio, ira aparecer está mansagem
     }
 }
 // aula de hoje 05/05/2025
 
-const input = document.getElementById("tasKinput");
-const ul = document.getElementById("taskList");
 
-function addTask() {
-    
-};
  
