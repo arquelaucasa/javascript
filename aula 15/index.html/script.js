@@ -18,5 +18,7 @@ smartBacKspace: true // otimiza o apagamento : apaga apenas as caratecteres dife
  
 }
 
-
+// cria uma nova instãncia do typed.js
+//"#typed" é o seletor do elemento HTML onde o yexto sera digitado
+//"optios " é o objeto com as configurações acima
 new Typed("#typed", options);
